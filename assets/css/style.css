@@ -1,0 +1,46 @@
+input.invalid {
+    background-color: #e2e1e1;
+}
+
+.tab {
+    display: none;
+    height: 200px;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step_itens {
+    text-align: center;
+}
+
+.step {
+    /* text-align: center; */
+    margin: 0% 0% 0% 0%;
+    height: 10px;
+    width: 10px;
+    /* margin: 0 2px; */
+    background-color: #06694b;
+    border: none;
+    border-radius: 40%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #04AA6D;
+}
+
+form {
+    margin: auto;
+
+}
+
+button {
+    float: right;
+    width: 100px;
+}

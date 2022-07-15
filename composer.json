@@ -1,0 +1,6 @@
+{
+    "require": {
+        "twbs/bootstrap": "v5.2.0-beta1",
+        "components/jquery": "3.6.0"
+    }
+}
